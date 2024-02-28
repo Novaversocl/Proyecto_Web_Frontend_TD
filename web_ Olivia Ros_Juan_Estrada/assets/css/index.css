@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  font-family: "Raleway", sans-serif;
+}
+
+
+
+.background-navbar {
+  background-color: #373a3c;
+}
+header {
+  background-image: url(../img/bg-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 52vh;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+header .contenedor-header {
+  height: 100%;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: calc(1.625rem + 4.5vw);
+  font-family: "Raleway", sans-serif;
+}
+
+#about h2, #portfolio h2, #contacto h2 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+i{
+    font-size: 40px;
+}
+
+.card{
+
+/* width:30vw ;
+height:40vw ; */
+
+}
+
+.card-img-top{
+  width:100% ;
+  height:auto;
+  max-height: 30vh; 
+  object-fit: cover;
+
+}
+
+.card-text{
+
+  font-size: 1.5vw;
+
+}
+.card-title{
+
+ font-size: 2.2vw;
+
+
+}
+
+
+.footer{
+ 
+background-color: black;
+color: #fff;
+
+
+}
