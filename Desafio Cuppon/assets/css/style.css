@@ -1,0 +1,69 @@
+/*
+● #212529;
+● #707070;
+● #F8F9FA o var(--light);
+● #fff o var(--white);
+● #28a745 o var(--success);
+
+fa-map-marker-alt.
+
+Roboto Light (300).
+● Roboto Medium (500)
+*/
+
+nav,
+.section-formulario {
+  background-color: #28a745;
+}
+
+.logo {
+  width: 60%;
+  max-width: 250px;
+}
+
+
+
+.card .card-img-top {
+  width: 100%;
+  height: auto;
+  /* border: 0; */
+}
+
+
+.card-text-precio-2 {
+  color: #28a745;
+  font-size: 20px;
+  font-weight: 500; 
+}
+
+.text-white{
+  font-weight: 500; /* Negrita (Roboto Medium también tiene variantes Bold) */
+
+}
+
+.card-text-precio-1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300; /* 300 indica la versión Light de la fuente Roboto */
+  font-style: normal;
+  color: #707070;
+}
+
+.card-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300; /* 300 indica la versión Light de la fuente Roboto */
+  font-style: normal;
+  color: #212529;
+
+}
+
+.card-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300; /* 300 indica la versión Light de la fuente Roboto */
+  font-style: normal;
+  color: #707070;
+}
+
+.footer{
+  color: #707070;
+
+}
