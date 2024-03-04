@@ -1,0 +1,108 @@
+/* Reset de márgenes, rellenos y bordes para todos los elementos */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Estilos para el elemento con id "logo" */
+#logo {
+  font-family: "Lobster", sans-serif;  /* Familia de fuente Lobster */
+  font-weight: 400;  /* Peso de la fuente regular */
+  font-style: normal;  /* Estilo de fuente normal */
+}
+
+/* Estilos para elementos con la clase "tamaño-modificable" */
+.tamaño-modificable {
+  height: auto;  /* Altura automática para mantener la proporción */
+  width: 100%;  /* Ancho del 100% del contenedor padre */
+}
+
+/* Estilos para el título principal de la tarjeta */
+.card-title-principal {
+  font-family: "Cabin", sans-serif;  /* Familia de fuente Cabin */
+  font-weight: 700;  /* Peso de la fuente bold */
+  font-size: 49px;  /* Tamaño de fuente 49 píxeles */
+  font-style: normal;  /* Estilo de fuente normal */
+}
+
+/* Estilos para el texto principal de la tarjeta */
+.card-text-principal {
+  font-family: "Cabin", sans-serif;  /* Familia de fuente Cabin */
+  font-weight: 700;  /* Peso de la fuente bold */
+  font-size: 25px;  /* Tamaño de fuente 25 píxeles */
+  font-style: normal;  /* Estilo de fuente normal */
+}
+
+/* Estilos para el título de ingredientes de la tarjeta */
+.card-title-ingredientes2 {
+  font-family: "Cabin", sans-serif;  /* Familia de fuente Cabin */
+  font-weight: 400;  /* Peso de la fuente regular */
+  font-size: 20px;  /* Tamaño de fuente 20 píxeles */
+  font-style: normal;  /* Estilo de fuente normal */
+}
+
+/* Estilos para el texto de ingredientes de la tarjeta */
+.card-text-ingredientes2 {
+  font-family: "Cabin", sans-serif;  /* Familia de fuente Cabin */
+  font-weight: 400;  /* Peso de la fuente regular */
+  font-size: 20px;  /* Tamaño de fuente 20 píxeles */
+  font-style: normal;  /* Estilo de fuente normal */
+}
+
+/* Estilos para el título de recetas de la tarjeta */
+.card-title-recetas {
+  font-family: "Cabin", sans-serif;  /* Familia de fuente Cabin */
+  font-weight: 400;  /* Peso de la fuente regular */
+  font-size: 20px;  /* Tamaño de fuente 20 píxeles */
+  font-style: normal;  /* Estilo de fuente normal */
+}
+
+/* Estilos para el texto de recetas de la tarjeta */
+.card-text-recetas {
+  font-family: "Cabin", sans-serif;  /* Familia de fuente Cabin */
+  font-weight: 400;  /* Peso de la fuente regular */
+  font-size: 20px;  /* Tamaño de fuente 20 píxeles */
+  font-style: normal;  /* Estilo de fuente normal */
+}
+
+/* Estilos para imágenes con clase "tamaño-modificable-2" */
+.tamaño-modificable-2 {
+  height: 100%;  /* Altura del 100% del contenedor padre */
+  width: 100%;  /* Ancho del 100% del contenedor padre */
+}
+
+/* Estilos para la barra de navegación */
+nav {
+  background-color: #373a3c;  /* Color de fondo gris oscuro */
+}
+
+/* Estilos para sección con clase "SUSCRÍBETE" */
+.SUSCRÍBETE {
+  background-color: #dc3545;  /* Color de fondo rojo oscuro */
+  color: white;  /* Color del texto blanco */
+  font-family: "Cabin", sans-serif;  /* Familia de fuente Cabin */
+  font-weight: 700;  /* Peso de la fuente bold */
+  font-size: 25px;  /* Tamaño de fuente 25 píxeles */
+  font-style: normal;  /* Estilo de fuente normal */
+}
+
+/* Estilos para texto adicional en sección "SUSCRÍBETE" */
+.SUSCRÍBETE-2 {
+  background-color: #dc3545;  /* Color de fondo rojo oscuro */
+  color: white;  /* Color del texto blanco */
+  font-family: "Lobster", sans-serif;  /* Familia de fuente Lobster */
+  font-weight: 400;  /* Peso de la fuente regular */
+  font-style: normal;  /* Estilo de fuente normal */
+  font-size: 20px;  /* Tamaño de fuente 20 píxeles */
+}
+
+/* Estilos para el pie de página */
+.footer {
+  background-color: #373a3c;  /* Color de fondo gris oscuro */
+  color: white;  /* Color del texto blanco */
+  font-family: "Lobster", sans-serif;  /* Familia de fuente Lobster */
+  font-weight: 400;  /* Peso de la fuente regular */
+  font-style: normal;  /* Estilo de fuente normal */
+  font-size: 25px;  /* Tamaño de fuente 25 píxeles */
+}
