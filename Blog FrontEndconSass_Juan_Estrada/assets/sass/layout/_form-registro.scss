@@ -1,0 +1,79 @@
+.form-registro {
+  display: flex;
+  justify-content: center;
+  text-align:center;
+
+}
+
+.form-registro__title {
+   
+    padding-top: 1rem;
+    font-size: 16px;
+}
+
+
+
+.form-formulario-registro {
+  display: flex;
+  justify-content: center;
+  display: block;
+
+  &__label {
+    margin-right: 10px;
+  }
+  &__input {
+    border-radius: 0.5rem;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: box-shadow 0.3s ease;
+    outline: none;
+    border-color: #007bff; /* Cambia el color del borde al enfocar */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Añade una sombra al enfocar */
+    width:20rem; /* Ajusta el ancho del botón para que coincida con el de los inputs */
+  }
+
+  &__button {
+    
+   
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: green; /* Cambio de color a verde */
+    color: #fff;
+    cursor: pointer;
+    width:20rem; /* Ajusta el ancho del botón para que coincida con el de los inputs */
+    box-sizing: border-box; 
+    
+  }
+
+  &__button-google {
+    
+   
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(232, 151, 0); /* Cambio de color a verde */
+    color: #fff;
+    cursor: pointer;
+    width:20rem; /* Ajusta el ancho del botón para que coincida con el de los inputs */
+    box-sizing: border-box; 
+   
+   
+  
+    
+  }
+
+
+  &__forget-password {
+    text-decoration: none;
+  }
+
+
+}

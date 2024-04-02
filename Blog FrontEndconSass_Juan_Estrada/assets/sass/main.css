@@ -1,0 +1,344 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #181818;
+}
+
+body {
+  background-color: #ccc;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  height: 7rem;
+  border-bottom: 2px solid #181818;
+}
+header .container {
+  width: 75%;
+  margin: 0 auto;
+}
+header .container .logo {
+  width: 100%;
+}
+header .container .logo__img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 10px;
+}
+header .container .logo__text {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.form-login__container {
+  width: 25rem;
+}
+
+.form-registro__container {
+  width: 30rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 1.5rem 0;
+}
+.logo__text {
+  margin-left: 1.2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo__img {
+  width: 50px;
+  margin-right: 10px;
+}
+.logo__text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.form-login {
+  display: flex;
+  justify-content: center;
+}
+.form-login__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form-login__container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.form-login__container input[type=email],
+.form-login__container input[type=password] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+.form-login__container .form-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.form-login__container .form-option__label {
+  margin-right: 10px;
+  font-size: 0.9rem;
+}
+.form-login__container .form-option__forget-password {
+  text-decoration: none;
+  color: blue;
+  font-size: 0.9rem;
+}
+.form-login__container .form-login__button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+.form-login__container .form-login__button:hover {
+  background-color: #0056b3;
+}
+.form-login__container .form-login__button--google {
+  margin-top: 10px;
+  background-color: #ea4335;
+}
+.form-login__container .form-login__button--google:hover {
+  background-color: #d62d20;
+}
+.form-login__container .form-login__button-img {
+  width: 20px;
+  margin-right: 10px;
+}
+.form-login__container .form-login__register {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.form-registro {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-registro__title {
+  padding-top: 1rem;
+  font-size: 16px;
+}
+
+.form-formulario-registro {
+  display: flex;
+  justify-content: center;
+  display: block;
+}
+.form-formulario-registro__label {
+  margin-right: 10px;
+}
+.form-formulario-registro__input {
+  border-radius: 0.5rem;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: box-shadow 0.3s ease;
+  outline: none;
+  border-color: #007bff; /* Cambia el color del borde al enfocar */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Añade una sombra al enfocar */
+  width: 20rem; /* Ajusta el ancho del botón para que coincida con el de los inputs */
+}
+.form-formulario-registro__button {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: green; /* Cambio de color a verde */
+  color: #fff;
+  cursor: pointer;
+  width: 20rem; /* Ajusta el ancho del botón para que coincida con el de los inputs */
+  box-sizing: border-box;
+}
+.form-formulario-registro__button-google {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: rgb(232, 151, 0); /* Cambio de color a verde */
+  color: #fff;
+  cursor: pointer;
+  width: 20rem; /* Ajusta el ancho del botón para que coincida con el de los inputs */
+  box-sizing: border-box;
+}
+.form-formulario-registro__forget-password {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #171717;
+}
+
+.adl {
+  height: 80px;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+.adl__logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.adl__title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero-section {
+  text-align: center;
+}
+.hero-section .center-image {
+  margin-bottom: 20px;
+}
+.hero-section h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.hero-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.hero-section .btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+.hero-section .btn:hover {
+  background-color: #0062cc;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.post {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.post .post__img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.post .post__date {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.post .post__title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.post .dlatam {
+  display: flex;
+  align-items: center;
+}
+.post .dlatam__logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.post .dlatam__text {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.horizontal-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.horizontal-images .horizontal-image {
+  width: 30%;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #6c757d;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+footer .adl__logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+footer .adl__title {
+  font-size: 18px;
+  font-weight: 700;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style CSS-->
+    <link rel="stylesheet" href="assets/sass/main.css">
+    <!-- Poppins - getter from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>Blog FrontEnd</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="assets/img/adl.png" alt="Logo Front End" class="logo__img">
+                <h1 class="logo__text">Blog Front End</h1>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="form-login">
+        <div class="form-login__container">
+            <h2 class="form-login__title">Bienvenido a Nuestro Blog</h2>
+    
+            <form action="#">
+                <input class="form-login__input" type="email" placeholder="example@correo.cl"> 
+              
+                <input class="form-login__input" type="password" placeholder="Ingresa tu contraseña">
+    
+                <div class="form-option">
+                    <label for="remember" class="form-option__label">
+                        <input type="checkbox" class="form-option__checkbox" id="remember"> Recordarme
+                    </label>
+    
+                    <a href="#" class="form-option__forget-password">¿Olvidaste tu constraseña?</a>
+                </div>
+    
+                <button><a href="Principal.html" class="form-login__button">Iniciar Sesión</a></button>
+                
+                <br>
+               
+
+                <button class="form-login__button form-login__button--google">
+                    <img src="assets/img/GoogleLogo.svg" alt="logo de Google" class="form-login__button-img"> Iniciar Sesión con Google
+                </button>
+    
+                <p class="form-login__register">¿No tienes una cuenta? <a href="index.html" class="form-login__register-link">Registrate</a></p>
+        </div>
+        </form>
+    </section>
+    
+</body>
+</html>
