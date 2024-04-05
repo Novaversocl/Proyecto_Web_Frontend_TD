@@ -1,0 +1,61 @@
+@import '../abstracts/_variable.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  .container-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    min-height: 100vh;
+    grid-template-areas:
+      "header aside"
+      "article section";
+    gap: 0.5rem;
+  }
+  
+  nav {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6f6f7;
+  }
+  
+  header {
+    background-color: #ffffff;
+    grid-area: header;
+    padding: 3rem;
+  }
+  
+  aside {
+    font-size: 10vh;
+    background-color: #fcfffb;
+    grid-area: aside;
+  }
+  
+  main {
+    background-color: #53c9a6;
+    grid-area: main;
+  }
+  
+  article {
+    background-color: #ffffff;
+    grid-area: article;
+    display: flex;
+  }
+  
+  section section {
+    background-color: #ffffff;
+    grid-area: section;
+  }
+  
+  footer {
+    background-color: #d9afeb;
+    grid-area: footer;
+  }
+  

@@ -1,0 +1,87 @@
+.logo img {
+    max-width: 20px;
+  }
+  
+  .links a {
+    color: rgb(4, 0, 0);
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  #button2 {
+    padding: 10px 20px;
+    background-color: #4ca866;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .buttons button:hover {
+    background-color: #029af5;
+    color: white;
+  }
+  
+  .tarjetas {
+    background-color: 0xFFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-size: 3vh;
+  }
+  
+  .tarjetas p {
+    margin-top: 20px;
+  }
+  
+  .fecha {
+    background-color: #bc251a;
+    padding: 3rem;
+    font-size: 2vh;
+    color: #f7f7f7;
+  }
+  
+  .article__conocer {
+    padding: 3rem;
+    font-size: 2vh;
+    background-color: #ffffff;
+  }
+  
+  .article__img4 {
+    background-color: #ffffff;
+    padding-top: 2vh;
+  }
+  
+  .article__img3__div {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .article__img3 {
+    width: 100%;
+    transform: rotate(90deg);
+  }
+  .aside_parrafo{
+
+font-size: 6vh;
+
+  }
+
+  .article__img2 {
+    width: 60vh;
+    height: 30vh;
+  
+  }

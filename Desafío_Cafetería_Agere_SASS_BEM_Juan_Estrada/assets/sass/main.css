@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.container-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  min-height: 100vh;
+  grid-template-areas: "header aside" "article section";
+  gap: 0.5rem;
+}
+
+nav {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f6f7;
+}
+
+header {
+  background-color: #ffffff;
+  grid-area: header;
+  padding: 3rem;
+}
+
+aside {
+  font-size: 10vh;
+  background-color: #fcfffb;
+  grid-area: aside;
+}
+
+main {
+  background-color: #53c9a6;
+  grid-area: main;
+}
+
+article {
+  background-color: #ffffff;
+  grid-area: article;
+  display: flex;
+}
+
+section section {
+  background-color: #ffffff;
+  grid-area: section;
+}
+
+footer {
+  background-color: #d9afeb;
+  grid-area: footer;
+}
+
+.logo img {
+  max-width: 20px;
+}
+
+.links a {
+  color: rgb(4, 0, 0);
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  color: #000000;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#button2 {
+  padding: 10px 20px;
+  background-color: #4ca866;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #029af5;
+  color: white;
+}
+
+.tarjetas {
+  background-color: 0xFFFFFF;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  font-size: 3vh;
+}
+
+.tarjetas p {
+  margin-top: 20px;
+}
+
+.fecha {
+  background-color: #bc251a;
+  padding: 3rem;
+  font-size: 2vh;
+  color: #f7f7f7;
+}
+
+.article__conocer {
+  padding: 3rem;
+  font-size: 2vh;
+  background-color: #ffffff;
+}
+
+.article__img4 {
+  background-color: #ffffff;
+  padding-top: 2vh;
+}
+
+.article__img3__div {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.article__img3 {
+  width: 100%;
+  transform: rotate(90deg);
+}
+
+.aside_parrafo {
+  font-size: 6vh;
+}
+
+.article__img2 {
+  width: 60vh;
+  height: 30vh;
+}/*# sourceMappingURL=main.css.map */
