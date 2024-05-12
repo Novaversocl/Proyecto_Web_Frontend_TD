@@ -46,7 +46,7 @@ var shouldChangeColor = false;
 function musicafondo() {
   var audioFondo = document.createElement("audio");
   audioFondo.id = "Fondo_MMX_V2";
-  audioFondo.src = "Fondo_MMX_V2.mp3";
+  audioFondo.src = "assets/Musica/Fondo_MMX_V2.mp3";
 
   audioFondo.play();
 }
