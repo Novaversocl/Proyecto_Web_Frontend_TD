@@ -79,7 +79,7 @@ function moveCube(event) {
       changeCubeColor(transparente);
       colorChangeCounter = 1;
 
-      cube.style.backgroundImage = "url('CaminaA_2.png')";
+      cube.style.backgroundImage = "url('assets/img/CaminaA_2.png')";
       cube.style.backgroundSize = "100%";
       console.log("abre patas");
 
