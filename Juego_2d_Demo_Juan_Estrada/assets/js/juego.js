@@ -68,7 +68,7 @@ function moveCube(event) {
       changeCubeColor(transparente);
       colorChangeCounter = 1;
 
-      cube.style.backgroundImage = "url('Camina_Izquierda_02.png')";
+      cube.style.backgroundImage = "url('assets/img/Camina_Izquierda_02.png')";
       cube.style.backgroundSize = "100%";
     }
   } else if (keyPressed === 39) {
