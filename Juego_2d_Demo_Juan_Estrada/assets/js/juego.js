@@ -85,7 +85,7 @@ function moveCube(event) {
 
       setTimeout(function () {
         // Primer bloque de código después de 1 segundo
-        cube.style.backgroundImage = "url('CaminaA.png')";
+        cube.style.backgroundImage = "url('assets/img/CaminaA.png')";
         cube.style.backgroundSize = "100%";
         console.log("Primer bloque después de 1 segundo");
       }, 200);
