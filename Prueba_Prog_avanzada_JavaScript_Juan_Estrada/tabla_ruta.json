@@ -1,0 +1,30 @@
+{
+  "ruta": [
+    {
+      "name": "Leon",
+      "imagen": "Leon.png"
+ 
+    },
+    {
+      "name": "Lobo",
+      "imagen": "Lobo.jpg"
+
+    },
+    {
+      "name": "Oso",
+      "imagen": "Oso.jpg"
+
+    },
+    {
+      "name": "Serpiente",
+      "imagen": "Serpiente.jpg"
+
+    },
+    {
+      "name": "Aguila",
+      "imagen": "Aguila.png"
+
+    }
+   
+  ]
+}

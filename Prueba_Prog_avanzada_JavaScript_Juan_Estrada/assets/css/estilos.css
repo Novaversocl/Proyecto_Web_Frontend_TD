@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../imgs/fondo.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 100px;
+  margin: 0; /* Elimina el margen predeterminado del cuerpo */
+}
+
+.contenedor_img_card {
+  width: auto;
+  height: 17rem;
+  border: 0;
+
+  border-radius: 4em 0;
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3); /* Añade una sombra de caja */
+}
+
+.contenedor_img {
+  width: auto;
+  height: 17rem;
+  border: 0;
+  border-radius: 4em 0;
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3); /* Añade una sombra de caja */
+
+  /* border-radius: 10px; Establece el redondeo de 10px para todos los lados */
+}
+
+.animal-container {
+  margin-bottom: 0; /* Espacio entre cada animal */
+}
+
+.contenedor_img_todos {
+  width: 5rem;
+  height: 5rem;
+  border: 0;
+  border-radius: 4em 0;
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3); /* Añade una sombra de caja */
+}
+
+.vista_animales {
+  border: 0;
+  border-radius: 4em 0;
+  transition: 0.5s;
+}
+
+.formulario {
+  background-color: rgba(0, 57, 118, 0.8);
+  border: 0;
+  border-radius: 4em 0;
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3); /* Añade una sombra de caja */
+}
+
+.mp3-audio {
+  width: 100px; /* Ajusta el ancho según lo que necesites */
+}
+
+.mp3-audio audio {
+  width: 9rem;
+
+  /* Hace que el reproductor de audio ocupe todo el ancho del contenedor */
+}
+
+/* Tabla de Participantes */
+
+#Animales {
+  height: 100%;
+  background: #f0f0f0;
+}
+
+#Animales div div {
+  transition: all 200ms;
+}
+
+#Animales div > div:hover {
+  box-shadow: 0px 1px 5px 1px;
+}
+
+.participante {
+  max-width: 30%;
+}
+
+/* Modal */
+
+.modal-dialog {
+  max-width: 85% !important;
+}
